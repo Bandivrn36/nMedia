@@ -28,31 +28,3 @@ class MainActivity : AppCompatActivity() {
         }
     }
 }
-//        viewModel.data.observe(this) { posts ->
-//            posts.map { post ->
-//                PostBinding.inflate(layoutInflater, binding.container, true).apply {
-//                    author.text = post.author
-//                    date.text = post.published
-//                    postBody.text = post.content
-//                    likesCount.text = CountConverter().convert(post.likes)
-//                    shareCount.text = CountConverter().convert(post.shares)
-//                    likeButton.setImageResource(
-//                        if (post.likedByMe) R.drawable.ic_liked else R.drawable.ic_likes
-//                    )
-//                    shareButton.setImageResource(
-//                        if (post.shareByMe) R.drawable.ic_shared else R.drawable.ic_share
-//                    )
-//                }.root
-//            }
-//        }
-//        binding.likeButton.setOnClickListener {
-//            viewModel.like()
-//        }
-//        binding.shareButton.setOnClickListener{
-//            viewModel.share()
-//
-//        }
-//
-//
-//    }
-//}
