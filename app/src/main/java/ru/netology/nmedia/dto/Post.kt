@@ -9,4 +9,5 @@ data class Post(
     var likes: Long,
     var shares: Long,
     var shareByMe: Boolean
-)
+
+    )

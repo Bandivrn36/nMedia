@@ -23,5 +23,6 @@ class CountConverter {
             text = ">10M."
         }
         return text
+
     }
 }

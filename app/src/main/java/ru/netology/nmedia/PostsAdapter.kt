@@ -24,6 +24,7 @@ class PostsAdapter(private val onLikeListener: OnLikeListener, private val onSha
         holder.bind(post)
 
     }
+
     //override fun getItemCount(): Int = list.size
 }
 

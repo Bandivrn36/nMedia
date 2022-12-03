@@ -40,6 +40,7 @@ class PostViewHolder(
             shareCount.text = CountConverter().convert(post.shares)
         }
     }
+
 }
 
 
