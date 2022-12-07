@@ -20,8 +20,7 @@ class PostViewHolder(
 
             )
             likeButton.setOnClickListener() {
-                //println("QWERTY BUTTON LIKE")
-                post.likes = if (post.likedByMe) post.likes - 1 else post.likes + 1
+
                 onLikeListener(post)
 
 
@@ -33,8 +32,7 @@ class PostViewHolder(
                 if (post.shareByMe) R.drawable.ic_shared else R.drawable.ic_share
             )
             shareButton.setOnClickListener() {
-                //println("QWERTY BUTTON SHARE")
-                post.shares++
+
                 onShareListener(post)
             }
             shareCount.text = CountConverter().convert(post.shares)
